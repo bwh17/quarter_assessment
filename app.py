@@ -50,7 +50,7 @@ def play_quiz_bowl():
     print("Available Categories:", categories)
 
     # Let the user choose a category
-    selected_category = input("Choose a category: ").capitalize()
+    selected_category = input("Choose a category: ").lower()
 
     if selected_category not in categories:
         print("Invalid category. Please choose a valid category.")
